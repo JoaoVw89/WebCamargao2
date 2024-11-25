@@ -1,0 +1,246 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f0f0;
+    color: #f7efef;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #ff6709; /* Laranja */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #ff6709; /* Laranja */
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: #f5a742; /* Laranja mais claro */
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.texto-banner {
+    text-align: center;
+}
+
+.sobre-conteudo, .noticias-conteudo, .eventos-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+  
+.texto {
+    width: 40%;
+}
+
+.fotos {
+    width: 50%;
+    height: 60%; /* Define a altura da imagem */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px; /* Bordas mais arredondadas */    
+}
+
+.fotos img {
+    width: 50%;
+    aspect-ratio: 1 / 1; /* Define a proporção da imagem como 1:1 (quadrada) */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px; /* Bordas mais arredondadas */    
+}
+
+.noticia, .evento {
+    background-color: #ff7b00ef;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.noticia img, .evento img {
+    width: 50%;
+    height: 60%; /* Define a altura da imagem */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px; /* Bordas mais arredondadas */   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f58f0a; /* Laranja */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #ff6709; /* Laranja */
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.redes-sociais {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.redes-sociais li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.redes-sociais img {
+    width: 30px;
+    height: auto;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.team-profile {
+    padding: 20px;
+    border: 1px solid #e96005;
+    border-radius: 10px;
+}
+
+/* Espaço para o banner */
+.banner {
+    width: 75%;
+    height: 375px; /* Ajuste a altura conforme necessário */
+    background-color: #e45705; /* Cor de fundo do banner */
+    margin-bottom: 20px; /* Espaço entre o banner e o conteúdo */
+    border-radius: 10px; /* Arredonda as bordas */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #141414;
+}
+
+th {
+    background-color: #e45705;
+}
+
+th:first-child, td:first-child {
+    width: 50px; /* Largura da coluna da foto */
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Opcional: arredonda a foto */
+    display: block; /* Faz a imagem se comportar como um bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+.back-button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #e45705;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .back-button::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-left: 2px solid orange;
+    border-bottom: 2px solid orange;
+    transform: rotate(45deg);
+  }
